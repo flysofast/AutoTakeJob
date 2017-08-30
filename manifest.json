@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Mr. Steal your jobs",  
     "description": "Tự động nò bấm take job cho Dung",  
-    "version": "0.1",    
+    "version": "0.2.2",    
     "permissions": ["tabs", "<all_urls>"],  
 
     "browser_action": { 
