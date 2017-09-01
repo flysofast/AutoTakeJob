@@ -28,7 +28,7 @@ function automate() {
      //    code: "location.reload();var list = document.getElementsByClassName('pro_btn pro_success');var i =0; for(i=0;i<list.length;i++){if(list[i].textContent.trim().toUpperCase() == 'open'.toUpperCase()){var j=0;for(j=0;j<20;j++){setTimeout(function(){list[i].click();},j*100);} break;}}"
      //}
     , function(jobFound){
-        if(jobFound == true){
+        if(jobFound[0] === true){
             clearInterval(intervalId);
             chrome.browserAction.setBadgeText({
                 text: ""

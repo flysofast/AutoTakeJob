@@ -17,6 +17,7 @@ for (i = 0; i < list.length; i++) {
 var jobFound = false;
 var irrJob = 0;
 for (irrJob = 0; irrJob < list.length; irrJob++) {
+
     if (list[irrJob].textContent.trim().toUpperCase() == 'deliver work'.toUpperCase()) {
         jobFound = true;
         
